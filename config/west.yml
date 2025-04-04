@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
     - name: carrefinho
       url-base: https://github.com/carrefinho
     - name: caksoylar
@@ -15,12 +13,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: blank-slate-zmk-module
-      remote: petejohanson
-      revision: main
     - name: forager-zmk-module
       remote: carrefinho
-      revision: studio
+      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
