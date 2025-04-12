@@ -22,8 +22,6 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    chosen { zmk,matrix_transform = &five_column_transform; };
-
     behaviors {
         thumb_ht: thumb_hold_tap {
             compatible = "zmk,behavior-hold-tap";
