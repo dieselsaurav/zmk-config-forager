@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV  1
@@ -206,12 +207,12 @@
             >;
         };
 
-        media {
+        media_and_mouse {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_AUTO  &kp C_BRIGHTNESS_INC  &none
-  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOL_DN          &kp C_MUTE             &kp C_VOL_UP          &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_PREV            &kp C_PLAY_PAUSE       &kp C_NEXT            &bootloader
-                          &trans  &trans    &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &kp C_VOLUME_UP  &kp K_MUTE        &kp C_VOL_DN     &kp C_BRIGHTNESS_INC
+  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP      &mmv MOVE_RIGHT  &kp C_BRIGHTNESS_AUTO
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_BRIGHTNESS_DEC
+                          &trans  &trans    &mkp LCLK       &mkp RCLK
             >;
         };
 
