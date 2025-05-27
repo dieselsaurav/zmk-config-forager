@@ -7,7 +7,6 @@
 
 #include <dt-bindings/zmk/pointing.h>
 
-CONFIG_ZMK_POINTING=y
 
 #define BASE 0
 #define NAV  1
