@@ -1,12 +1,10 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-
 
 #define BASE 0
 #define NAV  1
@@ -136,7 +134,7 @@
         };
 
         def-wer-to-system-danger+caps {
-            bindings = <&lt 5 CAPSLOCK>;
+            bindings = <&caps_word>;
             key-positions = <1 2 3>;
             layers = <0>;
         };
@@ -169,6 +167,21 @@
             bindings = <&kp LS(LA(LC(LG(SPACE))))>;
             key-positions = <16 17 18>;
             layers = <0>;
+        };
+
+        copy_shortcut {
+            bindings = <&kp LG(C)>;
+            key-positions = <21 22>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <22 23>;
+        };
+
+        save {
+            bindings = <&kp LG(S)>;
+            key-positions = <11 12 13>;
         };
     };
 
