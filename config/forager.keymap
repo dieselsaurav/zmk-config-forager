@@ -166,6 +166,11 @@
             bindings = <&kp LG(C)>;
             key-positions = <21 22>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     keymap {
