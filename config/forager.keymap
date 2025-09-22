@@ -17,14 +17,6 @@
  * SPDX-License-Identifier: MIT
  */
 
-&lt {
-    quick-tap-ms = <200>;
-    tapping-term-ms = <150>;
-    flavor = "balanced";
-};
-
-&mt { quick-tap-ms = <200>; };
-
 / {
     behaviors {
         thumb_ht: thumb_hold_tap {
