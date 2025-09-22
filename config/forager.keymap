@@ -151,12 +151,6 @@
             layers = <2>;
         };
 
-        def-ui-to-tab {
-            bindings = <&kp TAB>;
-            key-positions = <6 7>;
-            layers = <0>;
-        };
-
         arr-rust-lambda {
             bindings = <&rs_lambda_macro>;
             key-positions = <25 26>;
@@ -172,6 +166,12 @@
         copy_shortcut {
             bindings = <&kp LG(C)>;
             key-positions = <21 22>;
+        };
+
+        def-sdf-to-tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12 13>;
+            layers = <0>;
         };
     };
 
