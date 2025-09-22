@@ -173,6 +173,12 @@
             key-positions = <11 12 13>;
             layers = <0>;
         };
+
+        num-sdf-to-equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <11 12 13>;
+            layers = <2>;
+        };
     };
 
     keymap {
@@ -200,8 +206,8 @@
         numbers+symbols {
             bindings = <
   &kp PLUS                 &kp NUMBER_4            &kp N5                      &kp NUMBER_6              &kp STAR           &trans  &trans                         &trans                            &kp PERCENT              &trans
-  &hml LEFT_CONTROL MINUS  &hml LEFT_ALT NUMBER_1  &hml LEFT_COMMAND NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &kp NUMBER_5       &trans  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_COMMAND RIGHT_BRACKET  &hmr LEFT_ALT AMPERSAND  &kp RIGHT_CONTROL
-  &kp NUMBER_6             &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp EXCLAMATION    &trans  &trans                         &trans                            &trans                   &trans
+  &hml LEFT_CONTROL MINUS  &hml LEFT_ALT NUMBER_1  &hml LEFT_COMMAND NUMBER_2  &hml LEFT_SHIFT NUMBER_3  &kp EQUAL          &trans  &hmr RIGHT_SHIFT LEFT_BRACKET  &hmr RIGHT_COMMAND RIGHT_BRACKET  &hmr LEFT_ALT AMPERSAND  &kp RIGHT_CONTROL
+  &kp UNDERSCORE           &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp EXCLAMATION    &trans  &trans                         &trans                            &trans                   &trans
                                                                                &trans                    &kp NUMBER_0       &trans  &trans
             >;
         };
