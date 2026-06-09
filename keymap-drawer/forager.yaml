@@ -32,9 +32,9 @@ layers:
   - {t: ., s: ':'}
   - /
   - {t: ESC, h: ADJ}
-  - {t: SPACE, h: NAV}
-  - {t: RET, h: SYM}
-  - {t: '&num_dance', h: NUM}
+  - {t: BSPC, h: NAV}
+  - {t: SPACE, h: SYM}
+  - {t: TAB, h: NUM}
   NAV:
   - ''
   - ''
@@ -193,6 +193,9 @@ combos:
   l: [BASE]
 - p: [17, 18]
   k: RET
+  l: [BASE]
+- p: [16, 17]
+  k: '&num_word 2'
   l: [BASE]
 - p: [21, 22]
   k: Gui+C
