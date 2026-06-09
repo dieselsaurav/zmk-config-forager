@@ -1,0 +1,217 @@
+layout: {zmk_keyboard: forager}
+layers:
+  BASE:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - /
+  - {t: ESC, h: ADJ}
+  - {t: SPACE, h: NAV}
+  - {t: RET, h: SYM}
+  - {t: '&num_dance', h: NUM}
+  NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+Sft+Z
+  - Gui+V
+  - Gui+C
+  - Gui+X
+  - Gui+Z
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - CAPS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''
+  - {type: held}
+  - RET
+  - BSPC
+  NUM:
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
+  - '0'
+  - ''
+  - {type: held}
+  SYM:
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - {type: held}
+  - ''
+  ADJ:
+  - '&studio_unlock'
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - PP
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - OUT TOG
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+combos:
+- p: [0, 1]
+  k: ESC
+  l: [BASE]
+- p: [13, 16]
+  k: '&caps_word'
+  l: [BASE]
+- p: [7, 8]
+  k: BSPC
+  l: [BASE]
+- p: [8, 9]
+  k: DEL
+  l: [BASE]
+- p: [11, 12]
+  k: TAB
+  l: [BASE]
+- p: [17, 18]
+  k: RET
+  l: [BASE]
+- p: [21, 22]
+  k: Gui+C
+  l: [BASE]
+- p: [22, 23]
+  k: Gui+V
+  l: [BASE]
+- p: [21, 23]
+  k: Gui+X
+  l: [BASE]
+- p: [16, 26]
+  k: '-'
+  l: [BASE]
+- p: [15, 25]
+  k: _
+  l: [BASE]
+- p: [13, 23]
+  k: '='
+  l: [BASE]
+- p: [11, 21]
+  k: '`'
+  l: [BASE]
