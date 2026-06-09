@@ -584,16 +584,18 @@ path.combo {
 </g>
 <g transform="translate(588, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">,</text>
 </g>
 <g transform="translate(644, 157)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">.</text>
 </g>
 <g transform="translate(700, 174)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(264, 227) rotate(15.0)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="0" class="key tap">SPACE</text>
 </g>
 <g transform="translate(320, 252) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -601,9 +603,11 @@ path.combo {
 </g>
 <g transform="translate(406, 249) rotate(-15.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">RET</text>
 </g>
 <g transform="translate(476, 223) rotate(-15.0)" class="key held keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">BSPC</text>
 </g>
 </g>
 </g>

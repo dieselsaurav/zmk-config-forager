@@ -98,13 +98,13 @@ layers:
   - \
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - ','
   - .
-  - '0'
   - ''
-  - {type: held}
+  - SPACE
+  - '0'
+  - RET
+  - {t: BSPC, type: held}
   SYM:
   - '{'
   - '&'
