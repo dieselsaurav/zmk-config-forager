@@ -1,0 +1,21 @@
+name: Draw keymap
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.json"
+      - "keymap_drawer.config.yaml"
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      keymap_patterns: "config/forager.keymap"
+      json_path: "config"
+      output_folder: "keymap-drawer"
+      commit_message: "keymap-drawer render [skip ci]"
