@@ -32,7 +32,7 @@ layers:
   - {t: ., s: ':'}
   - /
   - {t: SPACE, h: NAV}
-  - {t: TAB, h: ADJ}
+  - TAB
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
   NAV:
@@ -171,9 +171,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
   - ''
+  - {type: held}
   - ''
 combos:
 - p: [0, 1]
