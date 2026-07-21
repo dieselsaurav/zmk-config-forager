@@ -68,7 +68,7 @@ layers:
   - END
   - {type: held}
   - ''
-  - RET
+  - {t: ▽, type: trans}
   - BSPC
   NUM:
   - '['
@@ -136,7 +136,7 @@ layers:
   - ''
   - ''
   - ''
-  - (
+  - {t: ▽, type: trans}
   - )
   - {type: held}
   - ''
