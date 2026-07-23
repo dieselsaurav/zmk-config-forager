@@ -163,7 +163,7 @@ layers:
   - {t: BT, h: '3'}
   - '&bootloader'
   - '&sys_reset'
-  - '&soft_off'
+  - ''
   - ''
   - ''
   - BT CLR
