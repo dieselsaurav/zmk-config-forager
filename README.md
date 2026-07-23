@@ -88,9 +88,6 @@ The Forager has no power switch; power is managed in firmware:
 - **Deep sleep** after 15 minutes — bluetooth drops, near-zero battery
   drain. Tap any key on a sleeping half to wake it; the waking tap itself
   is swallowed, and reconnection takes a second or two.
-- **Soft off** (manual "power button", e.g. for transport): hold SPACE+RET
-  and hold **C for 2 seconds**. Both halves power off completely. Press a
-  key on each half to turn them back on.
 
 ## Known issues
 
